@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"github.copilot.enable": {
+            "*": true,  // Habilita Copilot de forma global
+            ".": false  // Deshabilita Copilot en la carpeta específica
+        }
+	}
+}
