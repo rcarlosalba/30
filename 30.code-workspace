@@ -1,13 +1,13 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"github.copilot.enable": {
-            "*": true,  // Habilita Copilot de forma global
-            ".": false  // Deshabilita Copilot en la carpeta específica
+    "folders": [
+        {
+            "path": "."  // Indica que el espacio de trabajo está en la carpeta "30"
         }
-	}
+    ],
+    "settings": {
+        "github.copilot.enable": {
+            "*": true,       // Habilita Copilot de manera global
+            "./*": false     // Deshabilita Copilot en la carpeta actual (es decir, "30")
+        }
+    }
 }
